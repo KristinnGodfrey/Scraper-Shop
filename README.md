@@ -8,7 +8,7 @@ Activate and venv:
 	source !$/bin/activate
 	
 Run server:
-	python3 ~/Documents/Django/Syllabus/mysite/manage.py runserver
+	python3 ~/Documents/Django/kristlist/mysite/manage.py runserver
 
 Deactivate venv:
 	Deactivate

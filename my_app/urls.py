@@ -1,8 +1,7 @@
 from django.urls import path
-from .  import views, include
-from my_app import views
+from . import views
 
-urlpatterns = [ 
-    path('', include('my_app.urls'))
-    path('admin/', views.home, name='admin.site.urls')
-]
+urlpatterns = [
+    path('', views.home, name='home'),
+    path('new_search', views.new_search, name='new_search'),
+] 
